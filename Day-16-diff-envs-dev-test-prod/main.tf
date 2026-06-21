@@ -9,10 +9,3 @@ resource "aws_s3_bucket" "name2" {
     provider = "aws.test_nit"
   
 }
-
-resource "aws_s3_bucket" "name3" {
-    bucket = "karthikpoornima"
-    provider = "aws.prod_nit"
-    
-  
-}
